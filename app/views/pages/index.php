@@ -7,7 +7,7 @@ if (!isset($_SESSION["user_id"]))
 }
 else
 {
-	header("location: ./dashboard");
+	header("location: " . URLROOT ."/dashboard");
 	exit ;
 }
 
